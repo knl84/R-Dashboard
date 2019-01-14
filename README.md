@@ -7,6 +7,6 @@ install.packages("rmarkdown")
 
 Next you download the german credit dataset.
 
-Lastly you run the R code - remember to insert the path to the dataset.
+Lastly you run the R code from the dataset: "R Dashboard for Visualizations of credit modelling". Remember to insert the path to the dataset.
 
 Happy coding :)
