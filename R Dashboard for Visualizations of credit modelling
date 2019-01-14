@@ -26,7 +26,7 @@ library(ggthemes)
 library(flexdashboard)
 
 # Read dataset
-index<- read.csv("index.csv", header = TRUE)
+index<- read.csv("/german_credit.csv", header = TRUE)
 loan<-index
 revalue(loan$loan_status, c("Does not meet the credit policy. Status:Charged Off" = "Charged Off")) -> loan$loan_status
 revalue(loan$loan_status, c("Does not meet the credit policy. Status:Fully Paid" = "Fully Paid")) -> loan$loan_status
